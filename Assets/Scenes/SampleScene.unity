@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.18028355, g: 0.22571374, b: 0.30692255, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 96736814}
   m_Layer: 0
   m_Name: Ground (1)
-  m_TagString: Untagged
+  m_TagString: border
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -286,7 +286,7 @@ GameObject:
   - component: {fileID: 517760235}
   m_Layer: 0
   m_Name: Ground (3)
-  m_TagString: Untagged
+  m_TagString: border
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -374,6 +374,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Simple Sword (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700202920116575554, guid: adf326b91fb275a478387215165e77a0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7700202920116575560, guid: adf326b91fb275a478387215165e77a0,
         type: 3}
@@ -537,7 +542,7 @@ GameObject:
   - component: {fileID: 592057737}
   m_Layer: 0
   m_Name: Ground (2)
-  m_TagString: Untagged
+  m_TagString: border
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -626,6 +631,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Throwable (Newton) Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 8995423708553847214, guid: dc636c6037d761443b9326d55504fb10,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8996945520414126788, guid: dc636c6037d761443b9326d55504fb10,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -710,20 +720,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Simple Sword
       objectReference: {fileID: 0}
+    - target: {fileID: 7700202920116575554, guid: adf326b91fb275a478387215165e77a0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7700202920116575560, guid: adf326b91fb275a478387215165e77a0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.36
+      value: -6.94
       objectReference: {fileID: 0}
     - target: {fileID: 7700202920116575560, guid: adf326b91fb275a478387215165e77a0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.05
+      value: 2.34
       objectReference: {fileID: 0}
     - target: {fileID: 7700202920116575560, guid: adf326b91fb275a478387215165e77a0,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.81
+      value: 5.47
       objectReference: {fileID: 0}
     - target: {fileID: 7700202920116575560, guid: adf326b91fb275a478387215165e77a0,
         type: 3}
@@ -778,6 +793,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Simple Sword (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700202920116575554, guid: adf326b91fb275a478387215165e77a0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7700202920116575560, guid: adf326b91fb275a478387215165e77a0,
         type: 3}
@@ -848,6 +868,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Simple Sword (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7700202920116575554, guid: adf326b91fb275a478387215165e77a0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7700202920116575560, guid: adf326b91fb275a478387215165e77a0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -905,6 +930,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: adf326b91fb275a478387215165e77a0, type: 3}
+--- !u!4 &1041565843 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9,
+    type: 3}
+  m_PrefabInstance: {fileID: 1980045026}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1488151553
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -916,6 +947,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Throwable (Newton) Variant (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8995423708553847214, guid: dc636c6037d761443b9326d55504fb10,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8996945520414126788, guid: dc636c6037d761443b9326d55504fb10,
         type: 3}
@@ -1002,6 +1038,8 @@ GameObject:
   - component: {fileID: 1834526488}
   - component: {fileID: 1834526487}
   - component: {fileID: 1834526486}
+  - component: {fileID: 1834526491}
+  - component: {fileID: 1834526492}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -1092,12 +1130,42 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1834526485}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.36, y: 0.97, z: -5.76}
+  m_LocalPosition: {x: -10.18, y: 0.97, z: -9.79}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &1834526491
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834526485}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 84
+  m_CollisionDetection: 0
+--- !u!114 &1834526492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834526485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef5662e138bf4874fa2245d61072ec91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1041565843}
+  speed: 1
 --- !u!1001 &1891828787
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1109,6 +1177,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Simple Sword (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700202920116575554, guid: adf326b91fb275a478387215165e77a0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7700202920116575560, guid: adf326b91fb275a478387215165e77a0,
         type: 3}
@@ -1288,7 +1361,7 @@ GameObject:
   - component: {fileID: 1927996987}
   m_Layer: 0
   m_Name: Ground (4)
-  m_TagString: Untagged
+  m_TagString: border
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1382,7 +1455,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.43
+      value: 2.48
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1531,7 +1604,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 475244, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.91
+      value: 2.14
       objectReference: {fileID: 0}
     - target: {fileID: 475244, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1586,6 +1659,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Fence
+      objectReference: {fileID: 0}
+    - target: {fileID: 2745278199991558493, guid: 8917e2430e3feb84db00fe9a63e7bfe7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2745278199991558561, guid: 8917e2430e3feb84db00fe9a63e7bfe7,
         type: 3}

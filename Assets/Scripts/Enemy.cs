@@ -10,7 +10,9 @@ public class Enemy : MonoBehaviour
     private int maxHp = 10;
     private int currentHp;
     float speed1 = 2f;
-     public float number;
+    public float number;
+    bool widze = false;
+    bool edge = true;
 
     [SerializeField]
     private Color hitColor = Color.red;
@@ -18,11 +20,13 @@ public class Enemy : MonoBehaviour
     private void Start()
     {
         currentHp = maxHp;
+        number = Random.Range(-15f, 15f);
+        transform.Rotate(0, number, 0, Space.Self);
     }
 
     private void Damage()
     {
-        currentHp -= 5;
+        currentHp -= 10;
 
         if (currentHp <= 0)
         {
@@ -45,16 +49,7 @@ public class Enemy : MonoBehaviour
         {
             Damage();
         }
-    }
-    void Update(){
-            Collider[] hitColliders = Physics.OverlapSphere(transform.position,20);
-        foreach(Collider hitCollider in hitColliders){
-            if(hitCollider.name == "Player"){
-              
-                float step = speed1 * Time.deltaTime;
-             transform.position = Vector3.MoveTowards(transform.position,GameObject.Find("Player").GetComponent<Transform>().position,step);
 
     }
 }
-    }
-}
+   
