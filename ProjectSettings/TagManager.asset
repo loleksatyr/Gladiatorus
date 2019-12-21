@@ -8,6 +8,7 @@ TagManager:
   - FxTemporaire
   - weapon
   - border
+  - Enemy
   layers:
   - Default
   - TransparentFX
