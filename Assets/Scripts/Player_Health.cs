@@ -14,36 +14,43 @@ public class Player_Health : MonoBehaviour
     void Start()
     {
         health = 10;   
+
     }
 
     // Update is called once per frame
     void Update()
     {
-       uihealth.text = health.ToString();
+      
+        if (health <= 0)
+        {
+            uihealth.text = "You died";
+        }
+        else
+             uihealth.text = health.ToString();
     }
      private void Damage()
     {
-        health -= 1;
+        health -= 10;
         Debug.Log("Au");
-
+       
         
     }
 
+   
+
+    public void OnCollisionEnter(Collision collision)
+    {
+
+        if (collision.gameObject.tag == "Untagged")
+        {
+            Damage();
+        }
+        Debug.Log(collision.gameObject.name);
+    }
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.gameObject.tag);
-        if (damageTags.Contains(other.tag))
-        {
+        if (other.gameObject.tag == "enemy") {
             Damage();
         }
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (damageTags.Contains(collision.gameObject.tag))
-        {
-            Damage();
-        }
-
     }
 }
