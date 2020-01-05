@@ -18,12 +18,12 @@ public class TeleportScript : MonoBehaviour
     }
     public void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Player") {
+        
             SceneManager.LoadScene("SampleScene");
 
-        }
+       
         Debug.Log("Collision");
-        Debug.Log(collision.gameObject.tag);
+        
     }
     private void OnTriggerStay(Collider other)
     {
