@@ -60,6 +60,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AIAnimation.cs" />
     <Compile Include="Assets\Assets\Mtree\Resources\Mtree\Examples\ExampleSceneManager.cs" />
     <Compile Include="Assets\Assets\Mtree\Scripts\AO\DensityAO.cs" />
     <Compile Include="Assets\Assets\Mtree\Scripts\AO\KDTree.cs" />
