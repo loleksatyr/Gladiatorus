@@ -131,6 +131,7 @@
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\Player_Health.cs" />
     <Compile Include="Assets\Scripts\TeleportScript.cs" />
+    <Compile Include="Assets\SpawnScript.cs" />
     <None Include="Assets\Assets\Tavern Inn Interiors\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\Assets\Tavern Inn Interiors\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
     <None Include="Assets\Assets\Tavern Inn Interiors\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
