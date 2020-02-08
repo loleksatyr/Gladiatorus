@@ -1,4 +1,5 @@
 sceneSetups:
 - path: Assets/Scenes/NPCs.unity
+- path: Assets/Test.unity
   isLoaded: 1
   isActive: 1
