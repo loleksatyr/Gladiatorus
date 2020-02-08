@@ -1,0 +1,19 @@
+Asset is governed by the Asset Store EULA; however, the following components are governed by the licenses indicated below:
+https://unity3d.com/de/legal/as_terms
+
+--------------------------------------------------------------------------------------------------------------------------
+
+2019©by Maxime following files are available under a Creative Commons Attribution-ShareAlike 4.0 Licence(international):
+
+- Mtree/Shaders/Legacy/Leaves.shader
+- Mtree/Shaders/Legacy/Bark.shader
+- Mtree/Shaders/Legacy/Billboard.shader
+- Mtree/Scripts/MtreeWind.cs
+
+https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+--------------------------------------------------------------------------------------------------------------------------
+
+
+
+For further Information on creating an Asset for the Asset Store, see the Documentation of Mtree.
